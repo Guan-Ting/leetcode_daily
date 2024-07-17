@@ -1,0 +1,17 @@
+- 陣列(Array)
+- 鏈表(LinkedList)
+- 棧(Stack)
+  - DFS
+- 佇列(Queue)
+- Hash 
+----
+- 圖(Graph)
+  - 廣度搜索
+  - 深度搜索
+
+----
+- 樹
+  - 二元搜尋樹Binary Search Tree
+  - 平衡二叉树Self-balancing binary search tree
+    - 红黑树
+    - AVL
