@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9f15a5-e5f6-4ba4-86ee-23cf08c1186e" name="Changes" comment="feat:新增README資料結構目錄">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/array_note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/SortedSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/minSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/practice/minSubArrayLen2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/practice/MaxStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/practice/MaxStack2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/practice/StackArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/array_note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/array_note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +56,9 @@
   "keyToString": {
     "Application.BinarySearch.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.SortedSquares.executor": "Debug",
+    "Application.minSubArrayLen.executor": "Run",
+    "Application.minSubArrayLen2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -63,13 +73,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.minSubArrayLen2">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.array.BinarySearch" />
       <module name="leetcode_daily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.array.*" />
+          <option name="PATTERN" value="org.example.array.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +105,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.array.SortedSquares" />
+      <module name="leetcode_daily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.array.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minSubArrayLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.array.minSubArrayLen" />
+      <module name="leetcode_daily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.array.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minSubArrayLen2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.array.practice.minSubArrayLen2" />
+      <module name="leetcode_daily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.array.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.minSubArrayLen2" />
+        <item itemvalue="Application.minSubArrayLen" />
+        <item itemvalue="Application.SortedSquares" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Main" />
       </list>
@@ -155,7 +212,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/array/BinarySearch.java</url>
           <line>4</line>
-          <properties class="org.example.array.BinarySearch" method="binarySearch">
+          <properties class="org.example.array.BinarySearch">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
