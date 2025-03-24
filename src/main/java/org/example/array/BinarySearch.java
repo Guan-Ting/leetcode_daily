@@ -63,7 +63,7 @@ public class BinarySearch {
     }
     public static void main(String[] args) {
         int[] sortedArray = {1, 3, 5, 7, 9, 11, 13, 15, 17,19};
-        int target = 15;
+        int target = 19;
 
         // 使用迭代方法
         int result1 = binarySearch(sortedArray, target);
